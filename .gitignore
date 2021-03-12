@@ -1,0 +1,9 @@
+.idea
+nohup.out
+logs
+debug_log_dir
+!experiments/logs/ml45
+__pycache__
+*.egg-info
+.vector_cache/
+# *.pdf
