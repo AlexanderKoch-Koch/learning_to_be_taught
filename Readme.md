@@ -31,7 +31,7 @@ ml10_demonstrations_experiment.py has to be modified by adding pop_art_reward_no
 
 ### Meta-World ML45 training
 The code for this experiment is in experiments/ml45. ml45_demonstrations_training.py and ml45_language_training.py
-start the corresponding training runs. make_figure.py creates the training progress figure. The directories in the script might have to be changed.
+start the corresponding training runs. make_figure.py creates the training progress figure. The directories in the script might have to be changed. The trained policies are also avaible in experiments/logs/ml45.
 
 ### Sample efficient V-MPO experiment
 The scripts for this experiment are in the experiments/vmpo_replay_ratio folder.
