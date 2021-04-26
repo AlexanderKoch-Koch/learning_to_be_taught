@@ -13,9 +13,8 @@ task demonstrations and language instructions.
 
 ## Requirements
 1. Python 3.8.5 (older versions might work too)
-2. MuJoCo == 2.00 (see instructions on https://github.com/openai/mujoco-py)\
-3. rlpyt (see instructions at https://github.com/astooke/rlpyt)
-5. Meta-World (https://github.com/rlworkgroup/metaworld)
+2. rlpyt (see instructions at https://github.com/astooke/rlpyt)
+3. Meta-World (https://github.com/rlworkgroup/metaworld)
 
 ## Installation
 ```bash
