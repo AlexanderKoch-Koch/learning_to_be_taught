@@ -11,10 +11,18 @@ of the agent. We evaluate our algorithm on the challenging Meta-World benchmarks
 We demonstrate similar results for two different kinds of task instructions:
 task demonstrations and language instructions.
 
+## Requirements
+1. Python 3.8.5 (older versions might work too)
+2. MuJoCo == 2.00 (see instructions on https://github.com/openai/mujoco-py)\
+3. rlpyt (see instructions at https://github.com/astooke/rlpyt)
+5. Meta-World (https://github.com/rlworkgroup/metaworld)
 
-## Get Started
-[rlpyt](https://github.com/astooke/rlpyt) and [Meta-World](https://github.com/rlworkgroup/metaworld) have to be installed first.
-Then this python package can be installed with `pip install -e .`
+## Installation
+```bash
+git clone https://github.com/AlexanderKoch-Koch/learning_to_be_taught
+cd learning_to_be_taught
+pip install -e . 
+```
 In order to use the Meta-World environments with language instructions the word vector representations have to be saved first.
 This is done by executing learning_to_be_taught/environments/meta_world/save_used_word_embeddings.py.
 
@@ -24,6 +32,7 @@ This is done by executing learning_to_be_taught/environments/meta_world/save_use
 This experiment is in the experiments/ml10_demonstrations directory.
 run_experiments.sh starts all the training runs serially. To optimize the training for different hardware the files
 ml10_language_instructions.py, ml10_from_rewards, ml10_demonstrations_experiment have to be modified.
+The default setting is to run the sampler and learner asynchronously which only works on machines with a GPU.
 The training progress figure can be obtained with make_training_progress_figure.py.
 The ablations can be done by executing ml10_demonstrations_experiment.py after modifying the environment at
 learning_to_be_taught/environments/meta_world/generalized_meta_world.py. For the Pop-Art ablation only the 
