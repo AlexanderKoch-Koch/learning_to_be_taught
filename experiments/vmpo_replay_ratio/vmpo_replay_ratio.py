@@ -17,8 +17,8 @@ from rlpyt.utils.launching.affinity import make_affinity
 from rlpyt.samplers.serial.sampler import SerialSampler
 from rlpyt.envs.gym import GymEnvWrapper
 from rlpyt.runners.minibatch_rl import MinibatchRlEval
-from traj_info import EnvInfoTrajInfo
-from logger_context import config_logger
+from learning_to_be_taught.traj_info import EnvInfoTrajInfo
+from learning_to_be_taught.logger_context import config_logger
 from learning_to_be_taught.environments.meta_world.meta_world import MetaWorld
 from learning_to_be_taught.environments.classic_control.acrobot import Acrobot
 from learning_to_be_taught.environments.env_info_wrapper import EnvInfoWrapper
