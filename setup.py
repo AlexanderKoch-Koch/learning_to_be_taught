@@ -8,6 +8,8 @@ required = [
     'mujoco-py<2.1,>=2.0',
     'numpy>=1.18',
     'tensorboard',
+    'GPUtil',
+    'torch>=1.7'
 ]
 
 
