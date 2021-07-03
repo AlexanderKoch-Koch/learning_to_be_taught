@@ -28,7 +28,6 @@ from learning_to_be_taught.vmpo.models import FfModel, CategoricalFfModel
 from pathlib import Path
 from os import listdir
 from make_training_progress_figure import plot_with_std
-from make_language_env import make_language_env
 
 
 def simulate_policy(env, agent, render, num_episodes=10, trials_per_episode=3, oracle_policy=False):
