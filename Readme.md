@@ -1,4 +1,6 @@
 # Learning to be Taught
+[Thesis PDF](thesis_final.pdf)
+
 ## Abstract
 Deep reinforcement learning (RL) has recently been very successful at learning complex behaviors.
 But it requires a lot of interactions with the environment to learn a new task.
