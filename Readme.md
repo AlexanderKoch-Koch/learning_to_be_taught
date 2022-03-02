@@ -14,7 +14,9 @@ We demonstrate similar results for two different kinds of task instructions:
 task demonstrations and language instructions.
 
 
-Robot behaviour on unseen test task when give the natural language command: "pick object and place at goal_pos".
+Robot behaviour on unseen test task when give the natural language command:\
+"pick object and place at goal_pos".
+
 <img src="https://github.com/AlexanderKoch-Koch/learning_to_be_taught/blob/main/shelf-place.gif" width="400">
 
 ## Requirements
